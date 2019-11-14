@@ -14,14 +14,20 @@
   </header>
   <div class="menu">  
     <ul class="funcionalidades_home">
-      <li class="elemento_home"><p>Notificações</p></li>
-      <li class="elemento_home"><p>Receitas</p></li>
-      <li class="elemento_home"><p>Pedidos</p></li>
-      <li class="elemento_home"><p>Estoque</p></li>
+      <li class="elemento_home"><a href="notificacoes.html"><p>Notificações</p><a></li>
+      <li class="elemento_home"><a href="receitas.html"><p>Receitas</p><a></li>
+      <li class="elemento_home"><a href="pedidos.html"><p>Pedidos</p><a></li>
+      <li class="elemento_home"><a href="estoque.html"><p>Estoque</p><a></li>
     </ul>
   </div>
   <div class="navi">
-    <img class="logo" src="assets/img/barra inferior_v1.png" alt="barra inferior">
+    <img class="logo" src="assets/img/barra home.png" alt="barra inferior" usemap="#maplogo" width="636" height="90">
+    <map name="maplogo">
+      <area shape="rect" coords="0,0,80,90" href="home.html" alt="Home">
+      <area shape="rect" coords="80,0,160,90" href="notificacoes.html" alt="Notificações">
+      <area shape="rect" coords="160,0,240,90" href="pedidos.html" alt="Pedidos">
+      <area shape="rect" coords="240,0,375,90" href="receitas.html" alt="Receitas">
+    </map>
   </div>
 </body>
 </html>

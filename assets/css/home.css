@@ -1,9 +1,12 @@
 body{
-	font-family: 'Assistant', sans-serif;
-	font-size:2rem;
+
 	background: #f2f2f2;
 }
+a{
+text-decoration: none;
+color:black;
 
+}
 @media (max-width: 420px) {
 	.elemento_home{
 		padding: 2rem;
@@ -11,8 +14,11 @@ body{
 		justify-content: center;
 		display: flex;
 		margin:2.5rem 2rem;
-
+		font-family: 'Assistant', sans-serif;
+		font-size:2rem;
 	}
+
+
 	.funcionalidades_home{
 	}
 
