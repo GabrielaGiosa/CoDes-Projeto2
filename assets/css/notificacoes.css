@@ -7,33 +7,16 @@ color:black;
 
 }
 @media (max-width: 420px) {
-	.elemento_home{
-		padding: 2rem;
-		background-color:#cacaca;
-		justify-content: center;
+	.container {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
 		display: flex;
-		margin:0rem 2rem;
-		font-family: 'Assistant', sans-serif;
-		font-size:2rem;
-		max-width: 100%;
-	}
-
-
-	.funcionalidades_home{
-		display:flex;
 		flex-direction: column;
-		display: flex;
-		width: 100%;
-		height:100%;
-		align-content:space-between;
+	}
 
-	}
-	.menu{
-		max-height: 100%;
-		height: 100%;
-		align-content:space-between;
-		display: flex;
-	}
 	.sub_menu2{
 		color:#EDF0FF;
 	}
