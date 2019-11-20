@@ -29,12 +29,37 @@ color:black;
 	.navi{
 		display: flex;
 		margin:1rem;
-		position: fixed;
+/*		position: fixed;
 		bottom: 0px;
-	}
+	*/}
 
 	.logo{
 		width: 100%;
 	}
 
+	.titulo_pessoa{
+		display: flex;
+		font-family: 'Assistant', sans-serif;
+		justify-content: center;
+		font-size: 1.5rem;
+		background: none;
+	}
+	.bolo{
+		
+	}
+	.parte_interna{
+		font-size: 1.2rem;
+		font-style: italic;
+		padding: .5rem;
+		padding-left:1rem;
+	}
+	.container_central{
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column; 
+		flex-grow: 1;
+		font-size: 1.5rem;
+		font-family: 'Assistant', sans-serif;
+		margin: 1rem;
+	}
 }
