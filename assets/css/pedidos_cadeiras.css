@@ -29,24 +29,25 @@ color:black;
 	.navi{
 		display: flex;
 		margin:1rem;
-		position: fixed;
+/*		position: fixed;
 		bottom: 0px;
-	}
+	*/}
 
 	.logo{
 		width: 100%;
 	}
 
 	.titulo_pessoa{
-		display: flex;
-		font-family: 'Assistant', sans-serif;
+		display: flex;		
+		font-family: 'Lora', serif;
 		justify-content: center;
-		font-size: 1.5rem;
+		font-size: 2rem;
 		background: none;
 	}
-	.parte_interna_bolo, .parte_interna_cafe, .parte_interna_suco, .parte_interna_mousse{
+	.parte_interna_bolo, .parte_interna_cafe, .parte_interna_suco, .parte_interna_mousse, .menos	{
 		display: none
 	}
+
 	.bolo:hover .parte_interna_bolo{
 		display: flex;
 		font-size: 1.2rem;
@@ -61,6 +62,34 @@ color:black;
 		font-style: italic;
 		padding: .5rem;
 		padding-left:1rem;
+	}
+	.menos_2{
+		display: none;
+	}
+	.cafe:hover .mais_2{
+		display: none;
+	}
+	.mousse:hover .mais_2{
+		display: none;
+	}
+	.bolo:hover .mais_2{
+		display: none;
+	}
+	.suco:hover .mais_2{
+		display: none;
+	}
+	}
+	.cafe:hover .menos_2{
+		display: flex;
+	}
+	.mousse:hover .menos_2{
+		display: flex;
+	}
+	.suco:hover .menos_2{
+		display: flex;
+	}
+	.bolo:hover .menos_2{
+		display: flex;
 	}
 
 	.suco:hover .parte_interna_suco{
@@ -80,16 +109,27 @@ color:black;
 	
 	.container_central{
 		display: flex;
-		justify-content: space-evenly;
-		flex-direction: column; 
-		flex-grow: 1;
-		font-size: 1.5rem;
+/*		justify-content: space-evenly;
+*/		flex-direction: column; 
 		font-family: 'Assistant', sans-serif;
+		flex-grow: 1;
+		font-size: 1.65rem;
 		margin: 1rem;
 	}
 	.menu{
-	display: flex;
-	flex-grow: 1;
-	flex-direction: column;
-}
+		display: flex;
+		flex-grow: 1;
+		flex-direction: column;
+	}
+	.bolo{
+		margin-top: 1rem;
+	}
+	.cafe{
+		display: flex;
+		flex-direction: column;
+	}
+	.bolo, .cafe, .mousse, .suco{
+		padding: .9rem;
+		flex-direction: column;
+	}
 }
