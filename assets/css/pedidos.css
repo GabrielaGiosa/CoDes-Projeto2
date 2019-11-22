@@ -16,6 +16,11 @@ color:black;
 		display: flex;
 		flex-direction: column;
 	}
+	.img_pedidos{
+		object-fit:contain;
+		top: -3em;
+		position: fixed;
+	}
 
 	.sub_menu2{
 		color:#EDF0FF;
@@ -24,6 +29,8 @@ color:black;
 	.header{
 		display:  flex;
 		width: 100%
+		object-fit:contain;
+
 	}
 
 	.navi{

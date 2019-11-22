@@ -1,19 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
-  let iframe = document.querySelector('iframe')
-  let button = document.querySelector('button')
+ 
 
-  button.addEventListener('click', function() {
-    if(iframe.requestFullscreen) {
-      iframe.requestFullscreen()
-    }
-    else if(iframe.msRequestFullscreen) {
-      iframe.msRequestFullscreen()
-    }
-    else if(iframe.mozRequestFullScreen) {
-      iframe.mozRequestFullScreen()
-    }
-    else if(iframe.webkitRequestFullscreen) {
-      iframe.webkitRequestFullscreen()
-    }
-  })
+// Grab elements, create settings, etc.
+  var video = document.getElementById('video');
+
+// Get access to the camera!
+  if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    // Not adding `{ audio: true }` since we only want video now
+    navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+        //video.src = window.URL.createObjectURL(stream);
+        video.srcObject = stream;
+        video.play();
+    });
+  }
+
+ 
 })

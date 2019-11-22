@@ -16,10 +16,34 @@ color:black;
 		display: flex;
 		flex-direction: column;
 	}
-
-	.sub_menu2{
-		color:#EDF0FF;
+	
+	.container-central{
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column; 
+		flex-grow: 1;
+		font-size: 1.5rem;
+		font-family: 'Assistant', sans-serif;
+		margin: 1rem;
 	}
+
+	.titulo-telas{
+		display: flex;
+		font-family: 'Assistant', sans-serif;
+		justify-content: center;
+		font-size: 1.5rem;
+		background: none;
+	}
+
+	.estoque{
+
+	}
+
+
+
+
+
+
 
 	.header{
 		display:  flex;
@@ -32,7 +56,7 @@ color:black;
 		position: fixed;
 		bottom: 0px;
 	}
-
+	
 	.logo{
 		width: 100%;
 	}
