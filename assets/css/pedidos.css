@@ -18,7 +18,7 @@ color:black;
 	}
 	.img_pedidos{
 		object-fit:contain;
-		top: -3em;
+		top: 0em;
 		position: fixed;
 	}
 
@@ -30,9 +30,20 @@ color:black;
 		display:  flex;
 		width: 100%
 		object-fit:contain;
+		max-height: 100%
+	}
+	.finalizar{
+		padding: 1rem;
+		border:solid;
+	}
+	.parte_inferior{
+		flex-grow: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size:2rem;
 
 	}
-
 	.navi{
 		display: flex;
 		margin:1rem;
