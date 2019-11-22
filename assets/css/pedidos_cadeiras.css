@@ -132,4 +132,16 @@ color:black;
 		padding: .9rem;
 		flex-direction: column;
 	}
+	.retornar{
+		padding: 1rem;
+		border:solid;
+	}
+	.parte_inferior{
+		flex-grow: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size:2rem;
+
+	}
 }
