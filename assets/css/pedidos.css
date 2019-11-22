@@ -16,6 +16,11 @@ color:black;
 		display: flex;
 		flex-direction: column;
 	}
+	.img_pedidos{
+		object-fit:contain;
+		top: -3em;
+		position: fixed;
+	}
 
 	.sub_menu2{
 		color:#EDF0FF;
@@ -24,6 +29,8 @@ color:black;
 	.header{
 		display:  flex;
 		width: 100%
+		object-fit:contain;
+
 	}
 
 	.navi{
@@ -47,36 +54,7 @@ color:black;
 	.parte_interna_bolo, .parte_interna_cafe, .parte_interna_suco, .parte_interna_mousse{
 		display: none
 	}
-	.bolo:hover .parte_interna_bolo{
-		display: flex;
-		font-size: 1.2rem;
-		font-style: italic;
-		padding: .5rem;
-		padding-left:1rem;
-	}
-
-	.cafe:hover .parte_interna_cafe{
-		display: flex;
-		font-size: 1.2rem;
-		font-style: italic;
-		padding: .5rem;
-		padding-left:1rem;
-	}
-
-	.suco:hover .parte_interna_suco{
-		display: flex;
-		font-size: 1.2rem;
-		font-style: italic;
-		padding: .5rem;
-		padding-left:1rem;
-	}
-	.mousse:hover .parte_interna_mousse{
-		display: flex;
-		font-size: 1.2rem;
-		font-style: italic;
-		padding: .5rem;
-		padding-left:1rem;
-	}
+	
 	
 	.container_central{
 		display: flex;
