@@ -65,7 +65,36 @@ color:black;
 	.parte_interna_bolo, .parte_interna_cafe, .parte_interna_suco, .parte_interna_mousse{
 		display: none
 	}
-	
+	.bolo:hover .parte_interna_bolo{
+		display: flex;
+		font-size: 1.2rem;
+		font-style: italic;
+		padding: .5rem;
+		padding-left: 1rem;
+	}
+
+	.cafe:hover .parte_interna_cafe{
+		display: flex;
+		font-size: 1.2rem;
+		font-style: italic;
+		padding: .5rem;
+		padding-left: 1rem;
+	}
+
+	.suco:hover .parte_interna_suco{
+		display: flex;
+		font-size: 1.2rem;
+		font-style: italic;
+		padding: .5rem;
+		padding-left: 1rem;
+	}
+	.mousse:hover .parte_interna_mousse{
+		display: flex;
+		font-size: 1.2rem;
+		font-style: italic;
+		padding: .5rem;
+		padding-left: 1rem;
+	}
 	
 	.container_central{
 		display: flex;
