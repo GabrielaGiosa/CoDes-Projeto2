@@ -36,5 +36,20 @@ color:black;
 	.logo{
 		width: 100%;
 	}
+	.container2 {
+		display: flex;
+		margin:5rem;
+		position: fixed;
+		top: 70px;
+	}
+	.QR {
+		width: 100%;
+	}
+	/*.camera{
+		display: flex;
+		margin:5rem;
+		position: fixed;
+		top: 70px;
+	}*/
 
 }
