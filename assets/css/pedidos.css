@@ -19,7 +19,7 @@ color:black;
 	.img_pedidos{
 		object-fit:contain;
 		top: 0em;
-		position: fixed;
+		position: relative;
 	}
 
 	.sub_menu2{
