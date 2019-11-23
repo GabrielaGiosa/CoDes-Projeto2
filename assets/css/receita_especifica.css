@@ -4,11 +4,12 @@ body{
 a{
 text-decoration: none;
 color:black;
-
 }
-@media (max-width: 420px) {
+
+@media (max-width: 375px) {
 	.container {
 		position: fixed;
+		max-width: 100%;
 		top: 0;
 		left: 0;
 		right: 0;
@@ -17,13 +18,80 @@ color:black;
 		flex-direction: column;
 	}
 
-	.sub_menu2{
-		color:#EDF0FF;
-	}
-
 	.header{
 		display:  flex;
 		width: 100%
+	}
+
+	.menu{
+		padding-bottom: 7rem;
+		display: flex;
+		flex-grow: 1;
+		flex-direction: column;
+	}
+
+	.titulo_receita{
+		padding-top: 1rem;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		font-family: 'Assistant', sans-serif;
+		font-size: 3rem;
+	}
+
+	.receita{
+		display: flex;
+		flex-grow: 1;
+		justify-content: space-around;
+		flex-direction: column;
+	}
+
+	.ingredientes{
+		display: flex;
+		padding: 1rem;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.tit_ing{
+		padding-left: .3rem;
+		padding-bottom: .2rem;
+		text-align: start;
+		font-family: 'Assistant', sans-serif;
+		font-size: 2rem;		
+	}
+
+	.preparo{
+		display: flex;
+		padding: 1rem;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.tit_prep{
+		padding-left: .3rem;
+		padding-bottom: .2rem;
+		text-align: start;
+		font-family: 'Assistant', sans-serif;
+		font-size: 2rem;		
+	}
+
+	.elemento_receita{
+		padding-left: 1.5rem;
+		display: flex;
+		justify-content: left;
+		font-family: 'Assistant', sans-serif;
+		font-size: 1.5rem;
+  }
+  
+	.andamento{
+		display: flex;
+		justify-content: center;
+		font-family: 'Assistant', sans-serif;
+		font-size: 1.5rem;
+	}
+	.sub_menu2{
+		color:#EDF0FF;
 	}
 
 	.navi{
@@ -36,10 +104,4 @@ color:black;
 	.logo{
 		width: 100%;
 	}
-	.container2 {
-		display: flex;
-		margin:5rem;
-		position: fixed;
-		top: 70px;
-
 }
