@@ -26,6 +26,31 @@ color:black;
 		width: 100%
 	}
 
+	.elemento_notificacao{
+		margin: 2rem;
+		bottom: 1px;
+		border-style: solid;
+		border-width: 2px;
+		border-color: blue;
+	}
+
+	.notificacoes{
+		margin: 2rem;
+		bottom: 1px;
+		border-style: solid;
+		border-width: 2px;
+		border-color: pink;
+	}
+
+	.menu{
+		display:flex;
+		margin: 2rem;
+		bottom: 1px;
+		border-style: solid;
+		border-width: 2px;
+		border-color: red;
+	}
+
 	.navi{
 		display: flex;
 		margin:1rem;
@@ -45,11 +70,14 @@ color:black;
 	.QR {
 		width: 100%;
 	}
-	/*.camera{
+	.camera{
 		display: flex;
 		margin:5rem;
 		position: fixed;
 		top: 70px;
-	}*/
-
+		border-style: solid;
+		border-color: black;
+		border-width: 3px;
+	}
+	
 }
