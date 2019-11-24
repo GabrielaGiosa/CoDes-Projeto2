@@ -55,6 +55,12 @@ color:black;
 		padding-right: 	.7rem; 	
 		border:solid;
 	}
+	.row{
+		flex-direction: row;
+	}
+	.eta:focus{
+    	color:red;
+	}
 	.parte_inferior{
 		flex-grow: 1;
 		display: flex;
@@ -86,7 +92,8 @@ color:black;
 		background: none;
 	}
 	.parte_interna_bolo, .parte_interna_cafe, .parte_interna_suco, .parte_interna_mousse{
-		display: none
+		display: none;
+		flex-direction:column;
 	}
 	.bolo:hover .parte_interna_bolo{
 		display: flex;
