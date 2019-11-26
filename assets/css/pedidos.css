@@ -20,6 +20,7 @@ color:black;
 		object-fit:contain;
 		top: 2em;
 		position: relative;
+		right: .2rem;
 	}
 
 	.sub_menu2{
