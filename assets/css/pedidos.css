@@ -41,21 +41,61 @@ color:black;
 		font-size: 	2rem;
 		font-family: 'Assistant', sans-serif;
 		display: 	flex;	
-		padding: 	1rem;
-		margin-left: .7rem
+		padding: 	0rem;
+		margin: .9rem;
+		margin-top: .4rem
 
 	}
 	.escolha_da_mesa{
 		justify-content: 	space-around;	
 		display: 	flex;	
 		font-size: 	1.5rem;
+		margin: 0 0.8rem;
 	}
 	.mesa_1, .mesa_2, .mesa_3, .mesa_4, .mesa_5, .mesa_6, .mesa_7, .mesa_8{
-		padding: .2rem;
-		padding-left: 	.6rem; 	
-		padding-right: 	.6rem; 	
+		padding: .1rem;
+		padding-left: 	.5rem; 	
+		padding-right: 	.5rem; 	
 		border:solid;
+		border-color: black;
+		font-family: 'Assistant', sans-serif;
+		display: flex;
 	}
+
+	.me_1:hover .mesa_1{
+		color: white;
+		background: #4c4c4c
+	}
+
+	.me_2:hover .mesa_2{
+		color: white;
+		background: #4c4c4c
+	}
+	.me_3:hover .mesa_3{
+		color: white;
+		background: #4c4c4c
+	}
+	.me_4:hover .mesa_4{
+		color: white;
+		background: #4c4c4c
+	}
+	.me_5:hover .mesa_5{
+		color: white;
+		background: #4c4c4c
+	}
+	.me_6:hover .mesa_6{
+		color: white;
+		background: #4c4c4c
+	}
+	.me_7:hover .mesa_7{
+		color: white;
+		background: #4c4c4c
+	}
+	.me_8:hover .mesa_8{
+		color: white;
+		background: #4c4c4c
+	}
+
 	.row{
 		flex-direction: row;
 	}
