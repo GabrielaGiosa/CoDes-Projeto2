@@ -19,32 +19,90 @@ color:black;
 	
 	.container-central{
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		flex-direction: column; 
-		flex-grow: 1;
-		font-size: 1.5rem;
-		font-family: 'Assistant', sans-serif;
 		margin: 1rem;
 	}
 
-	.titulo-telas{
+	.titulo-tela{
 		display: flex;
-		font-family: 'Assistant', sans-serif;
-		justify-content: center;
-		font-size: 1.5rem;
+		justify-content: space-around;
+		font-family: 'Lora', sans-serif;
+		font-size: 3rem;
 		background: none;
 	}
-
+	.coluna{
+		flex-direction: column;
+		display: flex;
+		padding: .5rem;
+	}
+	.dentro{
+		margin: .5rem;
+	}
 	.estoque{
+		padding-top:2rem;
+		justify-content: center;
+		font-family: 'Assistant', serif;
+		font-size: 1.75rem;
+		flex-grow: 1;
 
 	}
+	
+	.container-estoque-imagem{
+		flex-grow:1;
+		position: fixed;
+		top: 10;
+		left: 0;
+		right: 75%;
+		bottom: 20;
+		display: flex;
+		flex-direction: wrap-reverse;
+	}
+	.container-estoque-item{
+		flex-grow:1;
+		position: fixed;
+		top: 10;
+		left: 25%;
+		right: 0;
+		bottom: 20;
+		display: flex;
+		flex-direction: column;	
+		justify-content: space-around;
+	}
+	.estoque-item{
+		padding-left: 1.5rem;
+	}
+	.container-caixa-texto{
+		padding-top: 10rem;
+		display: flex;		
+		font-size: 1.5rem;
+		font-family:'Assistant',serif;
 
+	}
+	.container-senha{
+		display: flex;
+		flex-direction: column;
+	}
+	input[type="text"] {
+		border: 2px solid;
+		color: #4c4c4c;
+		border-radius: 1rem;
+	}
+	input[type="password"]{
+		border: 2px solid; 
+		color: #4c4c4c;
+		border-radius: 1rem;
+	}
+	input[type="number"]{
+		border: 2px solid; 
+		color: #4c4c4c;
+		border-radius: 1rem;
 
-
-
-
-
-
+	}	
+	.caixa-texto{
+		display: flex;
+		flex-direction: column-reverse;
+	}
 	.header{
 		display:  flex;
 		width: 100%
@@ -61,4 +119,4 @@ color:black;
 		width: 100%;
 	}
 
-}
+
