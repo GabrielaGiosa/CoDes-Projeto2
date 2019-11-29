@@ -23,16 +23,21 @@ color:black;
 	}
 
 	.menu{
-		padding-bottom: 7rem;
-		display: flex;
-		flex-grow: 1;
-		flex-direction: column;
+		display:flex;
+		margin: 2rem;
+		margin-top: 15rem;
+		bottom: 1px;		
 	}
 
 	.camera{
 		display: flex;
-		justify-content: center;
-		margin: 2rem;
+		flex-direction: column;
+		margin:5rem;
+		margin-top: 5.1rem;
+		margin-bottom: 0rem;
+		position: fixed;
+		top: 70px;
+		height: 30px;
 	}
 
 	.receitas{
@@ -67,9 +72,16 @@ color:black;
 		width: 100%;
 	}
 
+	.video{
+		margin-bottom: 0rem;
+		
+	}
 	.snap{
 		display: flex;
-		justify-content: center;
+		margin:0rem;
+		margin-top: -10rem;
+		position: fixed;
+		top: 0px;
 	}
 	
 }
