@@ -46,6 +46,8 @@ color:black;
 	}
 	.parte_interna_bolo, .parte_interna_cafe, .parte_interna_suco, .parte_interna_mousse, .menos	{
 		display: none;
+		transition-duration: 2s;
+
 	}
 
 	.bolo:hover .parte_interna_bolo{
@@ -132,6 +134,7 @@ color:black;
 	}
 	.bolo{
 		margin-top: 1rem;
+
 	}
 	.cafe{
 		display: flex;
