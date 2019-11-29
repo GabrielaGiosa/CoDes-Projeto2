@@ -2,14 +2,15 @@
 <html lang="pt-br">
 <head>
   <title>Estoque</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="assets/css/estoque.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Assistant|Lora&display=swap" rel="stylesheet">
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script src="assets/js/estoque.js"></script>
-</head>
-<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <body>
   <div class="container">
     <header class="header">
       <img class="logo" src="assets/img/logo_v1.png" alt="logotipo Confeitaria Martinelli" >
@@ -20,44 +21,61 @@
         </div>
         <div class="estoque">
           <p>Produtos</p>
-          <!-- <div class="container-estoque">
-            <div class="container-estoque-imagem">
-                <img src="assets/img/menos.png">
-                <img src="assets/img/mais.png">
-              </div>
-              <div class="container-estoque-item">
-                  <p onload="lista_dos_produtos()"></p>
-              </div>
-          </div> -->
-          <!-- <div class="container-caixa-texto">
-            <table>
-                <tr>
-                  <td>Adicione um produto:</td>
-                  <div class="caixa-texto">
-                    <td><input type="text" id="nome_produto" placeholder="Insira o produto"><br/></td>
-                    <td><input type="number" id="nome_produto" placeholder="Quantidade do produto"><br/></td>
-                  </div>
-                </tr>
-              </table>
-          </div> -->
-      <form>
-          <table>
-              <caption>Adicione o produto no estoque</caption>
-              <tr>
-                  <td class="alinharRotulos">Nome do produto:</td>
-                  <td><input id="produto" type="text"></td>
-              </tr>
-              <tr>
-                  <td class="alinharRotulos">Quantidade do produto:</td>
-                  <td><input id="quantidadeprod" type="number"></td>
-              </tr>
-              <tr>
-                  <td colspan="2" align="center">
-                      <input type="button" value="Cadastrar" class="alinhaBtns" onclick=add_produto("'produto','quantidadeprod'")>
-                  </td>
-              </tr>
+          <div class="input-group">
+            <input type="button" value="-" class="button-minus" data-field="quantity">
+            <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+            <input type="button" value="+" class="button-plus" data-field="quantity">
+            <text>Farinha</text>
+          </div>
+          <div class="input-group">
+            <input type="button" value="-" class="button-minus" data-field="quantity">
+            <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+            <input type="button" value="+" class="button-plus" data-field="quantity">
+            <text>Morango</text>
+          </div>
+          <div class="input-group">
+            <input type="button" value="-" class="button-minus" data-field="quantity">
+            <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+            <input type="button" value="+" class="button-plus" data-field="quantity">
+            <text>Chocolate</text>
+          </div>
+          <div class="input-group">
+            <input type="button" value="-" class="button-minus" data-field="quantity">
+            <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+            <input type="button" value="+" class="button-plus" data-field="quantity">
+            <text>Chocolate branco</text>
+          </div>
+          <div class="input-group">
+            <input type="button" value="-" class="button-minus" data-field="quantity">
+            <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+            <input type="button" value="+" class="button-plus" data-field="quantity">
+            <text>Manteiga</text>
+          </div>
+          <div class="input-group">
+            <input type="button" value="-" class="button-minus" data-field="quantity">
+            <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+            <input type="button" value="+" class="button-plus" data-field="quantity">
+            <text>Maracuja</text>
+          </div>
         </div>
-    <div class="navi">
+      <div class="produtos_feitos">
+          <p>Produtos Feitos</p>
+          <ul class="lista"> 
+            <li class="lista-item">
+              <number>5</number>
+              <text>Bolo de morango</text>
+            </li>
+            <li class="lista-item">
+                <number>7</number>
+                <text>Bolo de chocolate</text>
+            </li>
+            <li class="lista-item">
+                <number>3</number>
+                <text>Mousse de maracujá</text>
+            </li>
+          </ul>
+      </div>
+      <div class="navi">
       <img class="logo" src="assets/img/barra inferior_v1.png" alt="barra inferior" usemap="#maplogo" width="636" height="90">
       <map name="maplogo">
         <area shape="rect" coords="0,0,80,90" href="home.html" alt="Home">

@@ -17,36 +17,43 @@ color:black;
 		flex-direction: column;
 	}
 
-	.sub_menu2{
-		color:#EDF0FF;
-	}
-
 	.header{
 		display:  flex;
 		width: 100%
 	}
 
-	.elemento_notificacao{
+	.menu{
+		padding-bottom: 7rem;
+		display: flex;
+		flex-grow: 1;
+		flex-direction: column;
+	}
+
+	.camera{
+		display: flex;
+		justify-content: center;
+		margin: 2rem;
+	}
+
+	.receitas{
+		margin: 2rem;
+		bottom: 1px;
+	}
+
+	.elemento_receita{
+		text-align: center;
+		padding-top: .5rem;
+		padding-bottom: .5rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
 		margin: 1.5rem;
 		bottom: 1px;
 		font-family: 'Assistant', sans-serif;
 		font-size: 1.2rem;
 		background-color: #a5a6aaa9;
 		border-style: solid;
-		border-color: #a5a6aaa9;
-		border-width: 5px;
-	}
-
-	.notificacoes{
-		margin: 2rem;
-		bottom: 1px;
-	}
-
-	.menu{
-		display:flex;
-		margin: 2rem;
-		margin-top: 15rem;
-		bottom: 1px;		
+		border-color: black;
+		border-width: .5px;
 	}
 
 	.navi{
@@ -59,22 +66,10 @@ color:black;
 	.logo{
 		width: 100%;
 	}
-	.container2 {
-		display: flex;
-		margin:5rem;
-		position: fixed;
-		top: 70px;
-	}
 
-	.camera{
+	.snap{
 		display: flex;
-		margin:5rem;
-		margin-top: 5.1rem;
-		position: fixed;
-		top: 70px;
-		
-	}
-	
+		justify-content: center;
 	}
 	
 }
