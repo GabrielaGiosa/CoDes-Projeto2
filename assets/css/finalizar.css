@@ -1,0 +1,161 @@
+body{
+	background: #f2f2f2;
+}
+a{
+text-decoration: none;
+color:black;
+
+}
+@media (max-width: 420px) {
+	.container {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.sub_menu2{
+		color:#EDF0FF;
+	}
+
+	.header{
+		display:  flex;
+		width: 100%
+	}
+
+	.navi{
+		display: flex;
+		margin:1rem;
+/*		position: fixed;
+		bottom: 0px;
+	*/}
+
+	.logo{
+		width: 100%;
+	}
+
+	.titulo_pessoa{
+		display: flex;		
+		font-family: 'Lora', serif;
+		justify-content: center;
+		font-size: 2rem;
+		background: none;
+		flex-grow: 1;
+		align-items: center;
+	}
+	.parte_interna_bolo, .parte_interna_cafe, .parte_interna_suco, .parte_interna_mousse, .menos	{
+		display: none;
+		transition-duration: 2s;
+
+	}
+
+	.bolo:hover .parte_interna_bolo{
+		display: flex;
+		font-size: 1.2rem;
+		font-style: italic;
+		padding: .5rem;
+		padding-left:1rem;
+		flex-direction: column;
+	}
+	.row{
+		flex-direction: row;
+		margin-top: .5rem;
+		margin-bottom: .5rem;
+	}
+
+	.cafe:hover .parte_interna_cafe{
+		display: flex;
+		font-size: 1.2rem;
+		font-style: italic;
+		padding: .5rem;
+		padding-left:1rem;
+		flex-direction: column;
+	}
+	.menos_2{
+		display: none;
+	}
+	.cafe:hover .mais_2{
+		display: none;
+	}
+	.mousse:hover .mais_2{
+		display: none;
+	}
+	.bolo:hover .mais_2{
+		display: none;
+	}
+	.suco:hover .mais_2{
+		display: none;
+	}
+	}
+	.cafe:hover .menos_2{
+		display: flex;
+	}
+	.mousse:hover .menos_2{
+		display: flex;
+	}
+	.suco:hover .menos_2{
+		display: flex;
+	}
+	.bolo:hover .menos_2{
+		display: flex;
+	}
+
+	.suco:hover .parte_interna_suco{
+		display: flex;
+		font-size: 1.2rem;
+		font-style: italic;
+		padding: .5rem;
+		padding-left:1rem;
+		flex-direction: column;
+	}
+	.mousse:hover .parte_interna_mousse{
+		display: flex;
+		font-size: 1.2rem;
+		font-style: italic;
+		padding: .5rem;
+		padding-left:1rem;
+		flex-direction: column;
+	}
+	
+	.container_central{
+		display: flex;
+/*		justify-content: space-evenly;
+*/		flex-direction: column; 
+		font-family: 'Assistant', sans-serif;
+		flex-grow: 1;
+		font-size: 1.65rem;
+		margin: 1rem;
+	}
+	.menu{
+		display: flex;
+		flex-grow: 1;
+		flex-direction: column;
+	}
+	.bolo{
+		margin-top: 1rem;
+
+	}
+	.cafe{
+		display: flex;
+		flex-direction: column;
+	}
+	.bolo, .cafe, .mousse, .suco{
+		padding: .9rem;
+		flex-direction: column;
+	}
+	.retornar{
+		padding: 1rem;
+		border:solid;
+	}
+	.parte_inferior{
+		flex-grow: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size:2rem;
+
+	}
+}
