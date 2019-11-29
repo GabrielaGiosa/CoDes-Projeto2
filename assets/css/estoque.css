@@ -25,28 +25,29 @@ color:black;
 
 	.titulo-tela{
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 		font-family: 'Lora', sans-serif;
-		font-size: 5rem;
+		font-size: 3rem;
 		background: none;
 	}
-	.coluna{
+	/* .coluna{
 		flex-direction: column;
 		display: flex;
 		padding: .5rem;
-	}
-	.dentro{
+	} */
+	/* .dentro{
 		margin: .5rem;
-	}
+	} */
 	.lista{
-		padding-left:1rem;
+		padding-left:0.5rem;
 	}
 	.estoque{
 		padding-top:2rem;
 		justify-content: center;
 		font-family: 'Assistant', serif;
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 		flex-grow: 1;
+		margin:0.5rem;
 
 	}
 	
