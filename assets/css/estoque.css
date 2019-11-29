@@ -137,6 +137,7 @@ color:black;
 	}
 	.produtos_feitos{
 		margin-left: 0.5rem;
+		
 	}
 	p{
 		display: flex;
@@ -147,6 +148,13 @@ color:black;
 		margin-top:0.5rem;
 	}
 	number{
+		margin-top:0.5rem;
 		padding-right:0.5rem;
+	}
+	.lista-item{
+		margin-top:0.5rem;
+		font-family:'Assistant',serif;
+		font-size: 1.2rem;
+
 	}
 }
