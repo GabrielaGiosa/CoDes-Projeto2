@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>"Home"</title>
+  <title>"Receitas"</title>
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="assets/css/receitas.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Assistant|Lora&display=swap" rel="stylesheet">
@@ -15,11 +15,14 @@
       <img class="logo" src="assets/img/logo_v1.png" alt="logotipo Confeitaria Martinelli">
     </header>
     <div class="menu">  
-      <ul class="notificacoes">
-        <li class="elemento_notificacao"><p><a href="receita_bolo.html">Bolo de chocolate</a></p></li>
-        <li class="elemento_notificacao"><p><a href="receita_brigadeiro.html">Brigadeiro</a></p></li>
-        <li class="elemento_notificacao"><p><a href="receita_mousse.html" >Mousse de Chocolate</a></p></li>
-        <li class="elemento_notificacao"><p><a href="receita_torta.html">Torta de Limão</a></p></li>
+      <div class = "camera">
+        <video id="video" width="250" autoplay></video>
+      </div>
+      <ul class="receitas">
+        <li class="elemento_receita"><p><a href="receita_bolo.html">Bolo de chocolate</a></p></li>
+        <li class="elemento_receita"><p><a href="receita_brigadeiro.html">Brigadeiro</a></p></li>
+        <li class="elemento_receita"><p><a href="receita_mousse.html" >Mousse de Chocolate</a></p></li>
+        <li class="elemento_receita"><p><a href="receita_torta.html">Torta de Limão</a></p></li>
       </ul>
     </div>
     <div class="navi">
@@ -30,11 +33,6 @@
         <area shape="rect" coords="160,0,240,90" href="pedidos_home.html" alt="Pedidos">
         <area shape="rect" coords="240,0,375,90" href="receitas_home.html" alt="Receitas">
       </map>
-    </div>
-    <div class = "camera">
-      <video id="video" width="200" autoplay></video>
-      <button2 id="snap">Scan QRcode</button2>
-      <canvas id="canvas" width="0" height="200"></canvas>
     </div>
   </div>
 </body>
