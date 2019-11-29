@@ -60,8 +60,12 @@ color:black;
 		border-color: black;
 		font-family: 'Assistant', sans-serif;
 		display: flex;
+		transition: 0.3s;
 	}
-
+	.ativo{
+		color: white;
+		background: #4c4c4c
+	}
 	.me_1:hover .mesa_1{
 		color: white;
 		background: #4c4c4c

@@ -27,28 +27,26 @@ color:black;
 	}
 
 	.elemento_notificacao{
-		margin: 2rem;
+		margin: 1.5rem;
 		bottom: 1px;
+		font-family: 'Assistant', sans-serif;
+		font-size: 1.2rem;
+		background-color: #a5a6aaa9;
 		border-style: solid;
-		border-width: 2px;
-		border-color: blue;
+		border-color: #a5a6aaa9;
+		border-width: 5px;
 	}
 
 	.notificacoes{
 		margin: 2rem;
 		bottom: 1px;
-		border-style: solid;
-		border-width: 2px;
-		border-color: pink;
 	}
 
 	.menu{
 		display:flex;
 		margin: 2rem;
-		bottom: 1px;
-		border-style: solid;
-		border-width: 2px;
-		border-color: red;
+		margin-top: 15rem;
+		bottom: 1px;		
 	}
 
 	.navi{
@@ -67,17 +65,16 @@ color:black;
 		position: fixed;
 		top: 70px;
 	}
-	.QR {
-		width: 100%;
-	}
+
 	.camera{
 		display: flex;
 		margin:5rem;
+		margin-top: 5.1rem;
 		position: fixed;
 		top: 70px;
-		border-style: solid;
-		border-color: black;
-		border-width: 3px;
+		
+	}
+	
 	}
 	
 }
