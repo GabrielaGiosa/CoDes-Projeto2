@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
  
   var video = document.getElementById('video');
-
+  facingMode: 'environment'
 // Get access to the camera!
   if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
     // Not adding `{ audio: true }` since we only want video now
