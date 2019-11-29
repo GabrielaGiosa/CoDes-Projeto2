@@ -62,9 +62,6 @@ color:black;
 		display: flex;
 		flex-direction: wrap-reverse;
 	}
-	/* .menos:hover{
-		color:#4c4c4c;
-	} */
 	.imagem-quant{
 		max-height: 1rem;
 		width: auto;
