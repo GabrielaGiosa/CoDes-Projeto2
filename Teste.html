@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Estoque - Cadastro de novos produtos</title>
+     <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/estoque.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Assistant|Lora&display=swap" rel="stylesheet">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="assets/js/estoque.js"></script>
+</head>
+<body>
+    <form>
+        <table>
+            <caption>Cadastro de novos produtos</caption>
+            <tr>
+                <td class="estoque-item-align">Nome do produto:</td>
+                <td><input id="nome" type="text"></td>
+            </tr>
+            <tr>
+                <td class="estoque-item-align">Quantidade do produto:</td>
+                <td><input id="quantidade" type="number"></td>
+            </tr>            
+            <tr>
+                <input type="button" value="Cadastrar" class="alinhaBtns" onclick="validarProduto('nome','quantidade')">
+            </tr>
+        </table>
+    </form>
+</body>
+    <body onload="listarEstoque()"></body>
+
+</html>
