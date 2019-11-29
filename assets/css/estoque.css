@@ -25,9 +25,9 @@ color:black;
 
 	.titulo-tela{
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 		font-family: 'Lora', sans-serif;
-		font-size: 5rem;
+		font-size: 3rem;
 		background: none;
 	}
 	.coluna{
@@ -39,14 +39,15 @@ color:black;
 		margin: .5rem;
 	}
 	.lista{
-		padding-left:1rem;
+		
+		padding-left:0.5rem;
 	}
 	.estoque{
-		padding-top:2rem;
 		justify-content: center;
 		font-family: 'Assistant', serif;
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 		flex-grow: 1;
+		margin:0.5rem;
 
 	}
 	
@@ -60,9 +61,6 @@ color:black;
 		display: flex;
 		flex-direction: wrap-reverse;
 	}
-	/* .menos:hover{
-		color:#4c4c4c;
-	} */
 	.imagem-quant{
 		max-height: 1rem;
 		width: auto;
@@ -137,6 +135,10 @@ color:black;
 		-webkit-appearance: button;
 		cursor: pointer;
 	}
+	.produtos_feitos{
+		margin-left: 0.5rem;
+		
+	}
 	p{
 		display: flex;
 		font-family: 'Lora', sans-serif;
@@ -144,6 +146,15 @@ color:black;
 		background: none;
 		margin-bottom: 0.5rem;
 		margin-top:0.5rem;
+	}
+	number{
+		margin-top:0.5rem;
+		padding-right:0.5rem;
+	}
+	.lista-item{
+		margin-top:0.5rem;
+		font-family:'Assistant',serif;
+		font-size: 1.2rem;
 
 	}
 }
